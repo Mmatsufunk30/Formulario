@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Cadastro de Jogadores </title>
+        <style> 
+        h1{
+            text-align: center;
+            color: seagreen;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        form{ 
+            text-align: center;
+        }
+       
+        </style>
+    </head>
+    <body> 
+        <h1> Cadastro dos Jogadores </h1>
+        <form> 
+           
+                <label for="Nome">Primeiro Nome:</label>
+                <br>
+                <input type="text" id="Nome" name="Nome">
+                <br>
+                <label for="Nome">Sobrenome:</label>
+                <br>
+                <input type="text" id="Nome" name="Nome">
+                <br>
+                <label for="Nome"> Digite o nome completo do Pai:</label>
+                <br> 
+                <input type="text" id="Nome" name="Nome">
+                <br> 
+                <label for="Nome"> Digite o nome completo da Mãe:</label>
+                <br> 
+                <input type="text" id="Nome" name="Nome">
+                <br> 
+                <label for="email"> Digite o seu e-mail:</label>
+                <br> 
+                <input type="email" id="email" name="email">
+                
+
+             
+              <br> 
+        
+                <label> Escolha seu sexo abaixo: </label>
+                <br>
+                <br>
+                <table>
+               <label for="sexo">Masculino</label>
+            
+                <input type="radio" name="sexo" id="sexo">
+                <br>
+                <label for="sexo">Feminino</label>
+                
+                <input type="radio" name="sexo">
+                <br>
+                <label for="sexo">Outro</label>
+               
+                <input type="radio" name="sexo"> 
+               
+        
+        <br> 
+        
+            <label for="data">Digite a data do seu nascimento: </label>
+            <br>
+            <input type="date" name="data">
+        
+        <br> <br>
+         
+            <label for="camisa">Digite o apelido na camisa: </label>
+            <input type="text" name="camisa">
+            <br> <br> 
+            <label for="camisa">Escolha o numero da camisa (entre 1 e 99)  </label>
+            <br>
+            <input type="number" name="camisa" min="1" max="99" >
+            <br> <br> 
+            <label for="selecao"> Escolha a posição em que deseja jogar</label>
+            <select name="selecao"> 
+                <option value="Goleiro">Goleiro</option>
+                <option value="Zagueiro">Zagueiro</option>
+                <option value="Meia">Meia</option>
+                <option value="Atacante">Atacante</option>
+            </select>
+            <br> <br> <br> 
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </body>
+</html>
